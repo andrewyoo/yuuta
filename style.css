@@ -475,11 +475,11 @@ h6 {
   }
 }
 blockquote, q {
-  font-size: 40.5px;
+  font-size: 25.2px;
 }
 @media screen and (min-width: 40em) {
   blockquote, q {
-    font-size: 25.2px;
+    font-size: 40.5px;
     padding-left: 30px;
   }
 }
@@ -1698,7 +1698,7 @@ header.site-description {
 .archive .has-post-thumbnail .page-content,
 .archive .has-post-thumbnail .entry-content,
 .archive .has-post-thumbnail .entry-summary {
-  color: white;
+  color: black;
 }
 
 .page-content,
@@ -1852,11 +1852,11 @@ figure.alignleft {
 }
 
 .has-post-thumbnail .read-leave-comments {
-  color: white;
+  color: black;
 }
 
 .has-post-thumbnail .read-leave-comments:hover {
-  color: white;
+  color: #333;
 }
 
 .bg-control {
