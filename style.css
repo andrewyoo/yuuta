@@ -475,11 +475,11 @@ h6 {
   }
 }
 blockquote, q {
-  font-size: 40.5px;
+  font-size: 25.2px;
 }
 @media screen and (min-width: 40em) {
   blockquote, q {
-    font-size: 25.2px;
+    font-size: 40.5px;
     padding-left: 30px;
   }
 }
@@ -2153,7 +2153,7 @@ figure.alignleft {
 
 .has-post-thumbnail .overlay.light-dark {
   background: #000;
-  opacity: .1;
+  opacity: .3;
 }
 
 .has-post-thumbnail .overlay.active {

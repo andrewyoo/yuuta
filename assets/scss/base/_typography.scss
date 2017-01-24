@@ -64,7 +64,7 @@ mark, ins {
   text-decoration: none;
 }
 
-.comment-entry mark, 
+.comment-entry mark,
 .comment-entry ins {
   background: $ins-bg-color;
 }
@@ -147,10 +147,10 @@ h6 {
 }
 
 blockquote, q {
-  font-size: $h3-font-size;
-  
-  @include media($medium-screen) { 
-    font-size: $h4-font-size * 0.8;
+  font-size: $h4-font-size * 0.8;
+
+  @include media($medium-screen) {
+    font-size: $h3-font-size;
     padding-left: $spacing-s;
   }
 
